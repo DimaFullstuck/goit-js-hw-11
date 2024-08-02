@@ -10,10 +10,4 @@ export default function searchImagesByQuery(query) {
     }
     return response.json();
   });
-  //     .catch((error) => {
-  //     iziToast.error({
-  //         position: "topRight",
-  //         message: `${error}`,
-  //     });
-  // });
 }
