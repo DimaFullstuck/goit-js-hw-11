@@ -5,7 +5,11 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import searchImagesByQuery from './js/pixabay-api.js';
-import { showError } from './js/render-functions.js';
+import {
+  showError,
+  createGallary,
+  cleanGallery,
+} from './js/render-functions.js';
 
 const form = document.querySelector('.gallery-form');
 const input = document.querySelector('.input-gallery');
